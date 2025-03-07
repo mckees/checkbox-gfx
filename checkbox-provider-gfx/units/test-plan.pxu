@@ -3,8 +3,10 @@ unit: test plan
 _name: GFX test plan for hardware encode and decode
 include:
   gfx_level_zero.*
+  gfx_level_zero_rt.*
 bootstrap_include:
     com.canonical.certification::executable
     com.canonical.certification::snap
     graphics_card
     levelzerobins
+    levelzeroraytracingtests
